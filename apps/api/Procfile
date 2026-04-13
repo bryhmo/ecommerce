@@ -1,0 +1,2 @@
+web: yarn workspace @ecommerce/api start
+release: yarn workspace @ecommerce/api typeorm migration:run

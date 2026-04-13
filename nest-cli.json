@@ -1,0 +1,12 @@
+{
+  "name": "nest-cli",
+  "version": "9.0.0",
+  "description": "Nest CLI",
+  "$schema": "./node_modules/@nestjs/cli/lib/schematics/collection.json",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/api/src",
+  "monorepo": true,
+  "compilerOptions": {
+    "deleteOutDir": true
+  }
+}
